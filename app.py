@@ -57,6 +57,7 @@ def create_order():
         "quantity": quantity,
         "amount": amount,
         "status": "paid",
+        "test": "ok",
     }
     ORDERS.append(order)
     return jsonify(order), 201
